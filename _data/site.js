@@ -103,6 +103,11 @@ module.exports = function() {
                 "label": "bahasa indonesia",
                 "code": "id",
                 "arialabel": "Lihat di bahasa lain"
+            },
+            {
+                "label": "한국어",
+                "code": "kr",
+                "arialabel": "당신의 언어로 보세요"
             }
         ],
         "collaborators": [
@@ -200,6 +205,11 @@ module.exports = function() {
                 "name": "Rahul Dahal",
                 "link": "https://github.com/rahuldahal",
                 "lang": "ne"
+            },
+            {
+                // "name": "Juneau Lim",
+                // "link": "https://github.com/voidJuneau",
+                "lang": "kr"
             }
         ],
         "otherhelpers": [

@@ -224,4 +224,13 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_ne', function(collection) {
       return getTipCollection(collection, "noswears", "ne");
   });
+
+  // Korean language version
+    config.addCollection('tips_swears_kr', function(collection) {
+      return getTipCollection(collection, "swears", "kr");
+  });
+
+  config.addCollection('tips_noswears_kr', function(collection) {
+      return getTipCollection(collection, "noswears", "kr");
+  });
 };
